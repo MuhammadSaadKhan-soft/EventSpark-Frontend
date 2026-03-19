@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Karachi Tech Summit 2026",
+    "date": "April 12, 2026",
+    "time": "10:00 AM – 6:00 PM",
+    "location": "Expo Centre, Karachi",
+    "description": "Pakistan's biggest tech conference uniting developers, designers, and startup founders for a full day of talks, workshops, and networking.",
+    "category": "Technology",
+    "emoji": "💻",
+    "spots": 8,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Creative Design Expo",
+    "date": "April 20, 2026",
+    "time": "11:00 AM – 8:00 PM",
+    "location": "Arts Council, Karachi",
+    "description": "A celebration of graphic design, illustration, and digital art. Browse live portfolios, attend masterclasses, and connect with creative professionals.",
+    "category": "Design",
+    "emoji": "🎨",
+    "spots": 34,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Startup Pitch Night",
+    "date": "May 3, 2026",
+    "time": "5:00 PM – 9:00 PM",
+    "location": "The Nest i/o, Lahore",
+    "description": "Watch 10 promising startups pitch live to a panel of top investors. Network with founders, mentors, and VCs shaping Pakistan's startup ecosystem.",
+    "category": "Business",
+    "emoji": "🚀",
+    "spots": 5,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "AI & Machine Learning Workshop",
+    "date": "May 15, 2026",
+    "time": "9:00 AM – 4:00 PM",
+    "location": "FAST NUCES, Islamabad",
+    "description": "Hands-on workshop covering real-world AI applications, model fine-tuning, and building intelligent products. Open to students and professionals.",
+    "category": "Technology",
+    "emoji": "🤖",
+    "spots": 12,
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Food & Culture Festival",
+    "date": "May 25, 2026",
+    "time": "12:00 PM – 10:00 PM",
+    "location": "Frere Hall Grounds, Karachi",
+    "description": "A vibrant outdoor festival celebrating Pakistan's diverse food culture, live music, folk art, and street performances. Family-friendly event.",
+    "category": "Culture",
+    "emoji": "🎉",
+    "spots": 120,
+    "featured": true
+  }
+]
