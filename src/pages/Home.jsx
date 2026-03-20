@@ -115,9 +115,7 @@ const Home = () => {
               Don’t miss out — popular events fill up fast. Register in seconds
               and join thousands of attendees discovering their next experience.
             </p>
-            <Link to="/attendance" className={styles.attendanceRegisterBtn}>
-               Register Attendance
-            </Link>
+            
           </div>
           <AttendanceWidget />
         </div>
