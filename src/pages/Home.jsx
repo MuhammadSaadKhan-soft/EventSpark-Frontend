@@ -22,7 +22,7 @@ const Home = () => {
   const { events, loading, error } = useEvents();
 
   return (
-    <main>
+    <main className={styles.page}>
       <section className={styles.hero}>
         <div className={styles.heroBg} aria-hidden="true" />
         <div className={styles.heroContent}>
