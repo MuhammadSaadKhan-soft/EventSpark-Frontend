@@ -256,8 +256,9 @@
 }
 .catGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* smaller min for mobile */
   gap: 14px;
+  width: 100%;
 }
 .catCard {
   display: flex;
@@ -452,4 +453,10 @@
   .catGrid  { grid-template-columns: 1fr; }
   .stats    { flex-direction: column; gap: 12px; }
   .statDivider { display: none; }
+}
+@media (max-width: 768px) {
+  .catGrid {
+    gap: 10px;      /* smaller gap on mobile */
+    padding: 0 8px; /* prevent horizontal scroll */
+  }
 }
