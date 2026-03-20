@@ -4,18 +4,7 @@ import useEvents from '../hooks/useEvents';
 import EventCard from '../components/EventCard';
 import AttendanceWidget from '../components/Attendancewidget';
 import styles from './Home.module.css';
-import { ArrowRight, ChevronRight, Calendar, MapPin, Zap, Star } from 'lucide-react';
-
-const CATEGORIES = [
-  { label: 'Technology', emoji: '💻', count: 34 },
-  { label: 'Business', emoji: '📊', count: 28 },
-  { label: 'Design', emoji: '🎨', count: 19 },
-  { label: 'Music', emoji: '🎵', count: 22 },
-  { label: 'Culture', emoji: '🏛️', count: 17 },
-  { label: 'Food', emoji: '🍜', count: 21 },
-  { label: 'Sports', emoji: '⚽', count: 15 },
-  { label: 'Networking', emoji: '🤝', count: 30 },
-];
+import { ArrowRight,  Calendar, MapPin, Zap, Star } from 'lucide-react';
 
 const WHY_CARDS = [
   { icon: <Calendar size={20} />, title: 'Curated Events', desc: 'Hand-picked events across tech, design, business & culture.' },
@@ -34,7 +23,6 @@ const Home = () => {
 
   return (
     <main>
-
       <section className={styles.hero}>
         <div className={styles.heroBg} aria-hidden="true" />
         <div className={styles.heroContent}>
@@ -117,16 +105,7 @@ const Home = () => {
           </div>
           <Link to="/events" className={styles.viewAll}>See all events →</Link>
         </div>
-        <div className={styles.catGrid}>
-          {CATEGORIES.map((cat) => (
-            <Link key={cat.label} to={`/events?category=${cat.label}`} className={styles.catCard}>
-              <span className={styles.catEmoji}>{cat.emoji}</span>
-              <span className={styles.catLabel}>{cat.label}</span>
-              <span className={styles.catCount}>{cat.count} events</span>
-              <ChevronRight size={13} className={styles.catArrow} />
-            </Link>
-          ))}
-        </div>
+       
       </section>
 
       <section className={styles.attendanceSection}>

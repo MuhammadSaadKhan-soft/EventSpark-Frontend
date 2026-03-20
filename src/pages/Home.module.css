@@ -254,12 +254,7 @@
   margin: 0 auto;
   padding: 80px 24px;
 }
-.catGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* smaller min for mobile */
-  gap: 14px;
-  width: 100%;
-}
+
 .catCard {
   display: flex;
   align-items: center;
@@ -400,7 +395,7 @@
 /* ══ RESPONSIVE — 900px ═════════════════════════════════════════════════════ */
 @media (max-width: 900px) {
   .whyInner    { grid-template-columns: 1fr 1fr; }
-  .catGrid     { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  
 }
 
 /* ══ RESPONSIVE — 640px ═════════════════════════════════════════════════════ */
@@ -426,7 +421,7 @@
   .whySectionHead { margin-bottom: 28px; }
   .whyInner    { grid-template-columns: 1fr; gap: 14px; }
 
-  .catGrid     { grid-template-columns: 1fr 1fr; gap: 10px; }
+  
   .catCard     { padding: 12px; gap: 8px; }
   .catEmoji    { font-size: 1.1rem; }
   .catLabel    { font-size: 0.8rem; }
@@ -448,9 +443,4 @@
   .marqueeWrapper { width: 320px; }
 }
 
-@media (max-width: 640px) {
-  .catGrid { grid-template-columns: 1fr 1fr; gap: 10px; }
-}
-@media (max-width: 400px) {
-  .catGrid  { grid-template-columns: 1fr; }
-}
+
