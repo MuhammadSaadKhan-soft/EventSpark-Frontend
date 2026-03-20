@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Users, Search, Calendar, Clock } from 'lucide-react';
 import styles from './Attendance.module.css';
 import API from '../api/axios';

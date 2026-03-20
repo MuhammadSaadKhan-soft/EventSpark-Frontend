@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { UserCheck, Loader, Calendar, ChevronDown } from 'lucide-react';
 import styles from './AttendanceForm.module.css';
 import API from '../api/axios';
