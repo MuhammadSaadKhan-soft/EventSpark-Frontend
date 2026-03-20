@@ -116,7 +116,7 @@ const Home = () => {
               and join thousands of attendees discovering their next experience.
             </p>
             <Link to="/attendance" className={styles.attendanceRegisterBtn}>
-              <ArrowRight size={15} /> Register Your Attendance
+               Register Attendance
             </Link>
           </div>
           <AttendanceWidget />
