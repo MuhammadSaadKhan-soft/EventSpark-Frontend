@@ -96,18 +96,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      <section className={styles.categories}>
-        <div className={styles.sectionHead}>
-          <div>
-            <p className={styles.eyebrow}>Browse by Interest</p>
-            <h2 className={styles.sectionTitle}>All Categories</h2>
-          </div>
-          <Link to="/events" className={styles.viewAll}>See all events →</Link>
-        </div>
-       
-      </section>
-
       <section className={styles.attendanceSection}>
         <div className={styles.sectionHead}>
           <div>
