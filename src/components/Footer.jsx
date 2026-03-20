@@ -21,9 +21,9 @@ const Footer = () => {
             Discover, attend, and create unforgettable local experiences — all in one place.
           </p>
           <div className={styles.socials}>
-            <a href="#" aria-label="Twitter" className={styles.socialLink}><Twitter size={16} /></a>
-            <a href="#" aria-label="Instagram" className={styles.socialLink}><Instagram size={16} /></a>
-            <a href="#" aria-label="Facebook" className={styles.socialLink}><Facebook size={16} /></a>
+            <a href="/twiiter" aria-label="Twitter" className={styles.socialLink}><Twitter size={16} /></a>
+            <a href="/instagram" aria-label="Instagram" className={styles.socialLink}><Instagram size={16} /></a>
+            <a href="/facebook" aria-label="Facebook" className={styles.socialLink}><Facebook size={16} /></a>
           </div>
         </div>
         <div className={styles.navCols}>
